@@ -4,6 +4,7 @@
   "description": "Treasured React components passed down through the generations.",
   "main": "heirloom-components.jsx",
   "dependencies": {
+    "prop-types": "^0.1.0",
     "ramda": "^0.15.1",
     "react": "^0.13.3",
     "react-stampit": "^0.6.0",
