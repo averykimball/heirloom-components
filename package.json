@@ -4,7 +4,9 @@
   "description": "Treasured React components passed down through the generations.",
   "main": "heirloom-components.jsx",
   "dependencies": {
-    "react": "^0.13.3"
+    "ramda": "^0.15.1",
+    "react": "^0.13.3",
+    "stampit": "^2.1.0"
   },
   "engines": {
     "node": "0.12.x"
