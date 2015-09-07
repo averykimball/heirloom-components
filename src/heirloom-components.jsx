@@ -4,7 +4,7 @@ require('es6-shim'); // Maybe dump es6 shim and just grab Object.assign only.
 var TextProgress = React.createClass({
   getDefaultProps: function() {
     return {
-      scale: 100, // Number of characters used for representation
+      scale: 10, // Number of characters used for representation
       numerator: 0,
       denominator: 100, // Support tiers, reflected in scale(s), if boundary String, equal
       fulfilledStyle: {
@@ -20,7 +20,7 @@ var TextProgress = React.createClass({
         whiteSpace: "pre-wrap"
       },
       charset: {
-        fulfilled: ["~"],
+        fulfilled: ["X"],
         partial: ">",
         unfulfilled: "|"
       },
