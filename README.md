@@ -13,4 +13,4 @@ TextProgress - A text-based progress indicator.
 * -- unfulfilled: A string that will portray a normalized portion of remaining progress to be made.
 * -- partial: A string that will portray the non-integer remainder of progress after normalizing against scale.
 
-TextProgress has reasonable defaults- you could get some use out of it simply by manipulating the numerator property.
+TextProgress has reasonable defaults- you can get some use out of it simply by manipulating the numerator property.
