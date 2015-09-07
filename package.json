@@ -1,26 +1,27 @@
 {
-  "name": "heirloom-components",
-  "version": "0.0.0-alpha",
-  "description": "Treasured React components passed down through the generations.",
-  "main": "heirloom-components.jsx",
+  "name": "react-scaffold",
+  "version": "0.0.0",
+  "description": "Piling all this crap together into a working SPA",
+  "main": "server.js",
   "dependencies": {
-    "prop-types": "^0.1.0",
-    "ramda": "^0.15.1",
+    "es6-shim": "^0.33.3",
+    "ramda": "^0.17.1",
     "react": "^0.13.3",
-    "react-stampit": "^0.6.0",
-    "stampit": "^2.1.0"
+    "react-stampit": "^0.9.0",
+    "react-tools": "^0.13.3"
   },
-  "engines": {
-    "node": "0.12.x"
+  "devDependencies": {
+    "babelify": "^6.2.0",
+    "beefy": "^2.1.5",
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "method-override": "^2.3.5",
+    "reactify": "^1.1.1"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/averykimball/heirloom-components.git"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "keywords": [
-    "react"
-  ],
-  "author": "Avery Kimball",
-  "contributors": [],
-  "license": "MIT"
+  "author": "",
+  "license": "ISC"
 }
