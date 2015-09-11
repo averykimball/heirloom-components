@@ -1,0 +1,25 @@
+
+// Possible ideas and todos
+//
+// A variable charSet ie. numerical, alphabetical, a phrase, etc, or
+// a percentage in place of the partial characters or
+// a "floating" percentage that stays on top of the progress bar,
+// taking up unfulfilled characters (until end/edge)
+//
+// How to style arb denominators/scales?
+//
+// Scale 0 is non-normalized, but with remaining (1:1)
+// Scale -1 is numerator only, (1:1)
+//
+// Message bumps up against last character in scale
+//
+// Option to extend message past end of scale characters
+//
+// Mid-bar label
+//
+// Sanitize:
+// Scale either -1, 0, or greater than 0
+// Message not longer than scale
+
+
+
